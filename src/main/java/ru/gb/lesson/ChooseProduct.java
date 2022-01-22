@@ -27,7 +27,7 @@ public class ChooseProduct {
         webDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         webDriver.get("https://pop-music.ru/");
-        //установим размер окна
+        // размер окна
         webDriver.manage().window().setSize(new Dimension(1300, 720));
 
         //создаем действие - Навести курсор на элемент

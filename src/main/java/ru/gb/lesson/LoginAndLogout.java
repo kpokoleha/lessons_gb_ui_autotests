@@ -30,7 +30,6 @@ public class LoginAndLogout
         //установим размер окна
         webDriver.manage().window().setSize(new Dimension(1300, 720));
 
-        //Thread.sleep(5000);
 
         webDriver.findElement(By.linkText("Войти")).click();
         By authFormLocator = By.xpath("//form[contains(@name,'system_auth')]");
