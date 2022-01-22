@@ -12,15 +12,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class LoginAndLogout
 {
     public static void main( String[] args ) throws InterruptedException {
 
-        //чтобы съэкономить ресурсы настроим браузер (чтобы не грузились картинки)
+        //чтобы съэкономить ресурсы настроим браузер (чтобы не загружались картинки)
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--blink-settings=imagesEnabled=false");
 
