@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-public class AddToCart_1 {
+public class MyAddToCart_1 {
     public static void main(String[] args) {
         ChromeOptions chromeOptions = new ChromeOptions();
         chromeOptions.addArguments("--blink-settings=imagesEnabled=false");
