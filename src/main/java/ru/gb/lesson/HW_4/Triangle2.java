@@ -25,8 +25,7 @@ public class Triangle2 {
         if (!isValid()) {
             throw new IllegalArgumentException("The triangle must be valid");
         }
-        double area=1.0/4.0*Math.sqrt(4.0*Math.pow(k,2.0)*Math.pow(l,2.0)-Math.pow((Math.pow(k,2.0)+Math.pow(l,2.0)-Math.pow(m,2.0)),2.0));
-        //double Area =1.0/4.0 * Math.sqrt(Math.pow((Math.pow(k,2.0) + Math.pow(l,2.0) + Math.pow(m,2.0)),2.0) - 2.0 * (Math.pow(k,4.0) + Math.pow(l,4.0) + Math.pow(m,4.0)));
+        double area =1.0/4.0 * Math.sqrt(Math.pow((Math.pow(k,2.0) + Math.pow(l,2.0) + Math.pow(m,2.0)),2.0) - 2.0 * (Math.pow(k,4.0) + Math.pow(l,4.0) + Math.pow(m,4.0)));
         return area;
     }
 }
